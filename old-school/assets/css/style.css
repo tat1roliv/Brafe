@@ -55,3 +55,34 @@ a.menu-logo{
     font-size: 1.25em;/*18px => 18(px desejado)/16(base navegador) */
 }
 
+/*  intro banner    */
+
+.intro{
+    background: url("../img/bg-intro.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    color:white;
+    text-align: center;
+}
+
+.intro h1::after{
+    content: "";
+    display: block;
+    width:20px;
+    height:4px;
+    background:#fff;
+    margin: 10px auto;
+}
+
+.intro h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-style: bold;
+
+}
+
+.intro p{
+    font-style: italic;
+    font-size: 1.125em;
+}
+
