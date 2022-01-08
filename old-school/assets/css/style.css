@@ -11,6 +11,10 @@ body{
     color: #252525;
 }
 
+/* media queries */
+/* breakpoints  768 | 960 */
+
+
 /*  menu  */
 
 .menu {
@@ -55,6 +59,13 @@ a.menu-logo{
     font-size: 1.25em;/*18px => 18(px desejado)/16(base navegador) */
 }
 
+@media all and (max-width:768){
+    .menu-nav{
+        float: none;
+        clear: both;
+    }
+}
+
 /*  intro banner    */
 
 .intro{
@@ -85,6 +96,13 @@ a.menu-logo{
     font-style: italic;
     font-size: 1.125em;
 }
+
+@media all and (max-width:768){
+    .intro{
+        padding:30px 0;
+    }
+}
+
 
 /*  sobre   */
 
@@ -146,6 +164,27 @@ a.menu-logo{
     position: relative;
     top: -25px;
 }
+
+@media all and (min-width: 740px) and (max-width:980px){
+    .sobre-container{
+        max-width: 720px;
+    }
+    .sobre-item {
+        width:340px;
+    }
+}
+
+@media all and (max-width: 739px){
+    .sobre-container{
+        max-width: 300px;
+    }
+
+    .sobre-item {
+        width:300px;
+        margin: 0 auto;
+    }
+}
+
 
 /* produtos */
 
@@ -228,6 +267,27 @@ h2.mineiro::before{
     color: white;
 }
 
+
+@media all and (min-width: 740px) and (max-width:980px){
+    .produtos-container{
+        max-width: 720px;
+    }
+    .produtos-item {
+        width:220px;
+    }
+}
+
+@media all and (max-width: 739px){
+    .produtos-container{
+        max-width: 300px;
+    }
+
+    .produtos-item {
+        margin: 0 auto 20px auto;
+    }
+}
+
+
 /* locais */
 
 .locais{
@@ -287,6 +347,35 @@ h2.mineiro::before{
     margin: 20px auto 0 10px;
    
 }
+
+.locais-item a:hover{
+    background-color: #d6d3c8;
+}
+
+@media all and (min-width: 740px) and (max-width:980px){
+    .locais{
+        max-width:720px;
+    }
+
+    .locais-item > div,
+    .locais img {
+        width: 340px;
+    }
+}
+
+@media all and (max-width: 739px){
+    .locais{
+        max-width:300px;
+    }
+
+    .locais-item > div,
+    .locais-item img {
+        width: 300px;
+        margin: 0;
+    }
+
+}
+
 
 /* newsletter */
 
@@ -358,6 +447,33 @@ h2.mineiro::before{
     text-transform: uppercase;
 }
 
+@media all and (min-width: 740px) and (max-width:980px){
+    .assine-container{
+        max-width: 720px;
+    }
+
+    .assine-info, 
+    .assine-form,
+    .assine-form input{   
+        width: 340px;
+    }
+
+}
+@media all and (max-width: 739px){
+    .assine-container{
+        max-width: 300px;
+
+    }
+
+    .assine-info, 
+    .assine-form,
+    .assine-form input{   
+        width: 300px;
+        margin: 10px 0 0 0;
+    }
+    
+}
+
 /*  footer  */
 
 .footer{
@@ -377,3 +493,19 @@ h2.mineiro::before{
     color:#d6d3c8;
     text-align: center;
 }
+
+@media all and (min-width: 740px) and (max-width:980px){
+    .footer-container{
+        max-width: 720px;
+    }
+
+
+}
+@media all and (max-width: 739px){
+    .footer-container{
+        max-width: 300px;
+
+    }
+    
+}
+
