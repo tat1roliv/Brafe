@@ -69,6 +69,30 @@
 	width: calc(100% - 20px);
 }
 
+@media all and (max-width: 739){
+	.container{
+		max-width: 300px;
+	}
+
+	.grid-1, 
+	.grid-2, 
+	.grid-3, 
+	.grid-4, 
+	.grid-5, 
+	.grid-6, 
+	.grid-7, 
+	.grid-8,
+	.grid-9, 
+	.grid-10, 
+	.grid-11, 
+	.grid-12 {
+	margin-left: 0px;
+	margin-right: 0px;
+	float: none;
+	width: 100%;
+	}
+}
+
 
 /* Reset */
 
@@ -86,16 +110,45 @@ body {
 	box-sizing: border-box;
 }
 
+img{
+	max-width:100%;
+	display: block;
+}
+
 /* Menu */
 
 .menu {
 	background: #252525;
+	padding:15px 0;
+}
+.menu-nav  ul{
+	float: right;
+}
+
+.menu-nav  ul li {
+	display: inline-block;
+
 }
 
 .menu-nav a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.125em;
+	margin-left: 10px;
+	padding: 10px;
+	display: block;
+}
+
+@media all and (max-width: 739){
+	.menu-nav  ul{
+		float: none;
+	}
+
+	.menu-nav  ul li a{
+		margin-left: 0;
+		padding-left: 0;
+	}
+
 }
 
 /* Intro */
@@ -104,6 +157,8 @@ body {
 	background: url('../img/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
 	color: #fff;
+	padding: 150px 0;
+	text-align: center;
 }
 
 .intro h1 {
@@ -117,11 +172,18 @@ body {
 	width: 20px;
 	height: 4px;
 	background: #fff;
+	margin: 0 auto;
 }
 
 .intro p {
 	font-style: italic;
 	font-size: 1.125em;
+}
+@media all and (max-width: 739){
+	.intro{
+		padding:40px 0;
+	}
+
 }
 
 /* Sobre */
