@@ -284,5 +284,96 @@ h2.mineiro::before{
     text-transform: uppercase;
     font-style: bold;
     font-size: 1.125em;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0 10px;
+   
+}
+
+/* newsletter */
+
+.assine{
+    background: #d6d3c8;
+}
+
+.assine-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+/*clear-fix => quando todos os elem estao flutuando*/
+.assine-container::after, 
+.assine-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.assine-info{   
+    width: 460px;
+    margin: 0 10px;
+    float: left;
+}
+
+.assine-info h2{
+    font-size: 2em;
+
+}
+
+.assine-info p{
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.assine-form{
+    width: 460px;
+    margin: 0 10px;
+    float: left;
+}
+.assine-form label{
+    display: none;
+}
+
+.assine-form input{
+    box-sizing: border-box;
+    width: 320px;
+    border: 1px solid #252525;
+    background: none;
+    font-size:1.5em;
+    font-style: italic;
+    font-family: Georgia, serif;
+    padding: 10px;
+    float: left;
+}
+
+.assine-form button{
+    width: 140px;
+    background: #252525;
+    font-size:1.125em;
+    font-style: italic;
+    font-family: Georgia, serif;
+    padding: 14px 0;
+    color:white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/*  footer  */
+
+.footer{
+    background: #252525;
+}
+
+.footer-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.footer-container p{
+    margin: 0 10px;
+    font-size: 1em;
+    line-height: 1.4em;
+    color:#d6d3c8;
+    text-align: center;
 }
