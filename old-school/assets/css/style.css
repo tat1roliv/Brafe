@@ -59,12 +59,21 @@ a.menu-logo{
     font-size: 1.25em;/*18px => 18(px desejado)/16(base navegador) */
 }
 
-@media all and (max-width:768){
+@media all and (max-width:739){
+
+    .menu{
+        text-align: center;
+    }
+    a.menu-logo{
+        float:none;
+        margin: 0 auto;
+    }
     .menu-nav{
         float: none;
         clear: both;
     }
 }
+
 
 /*  intro banner    */
 
@@ -498,14 +507,10 @@ h2.mineiro::before{
     .footer-container{
         max-width: 720px;
     }
-
-
 }
 @media all and (max-width: 739px){
     .footer-container{
         max-width: 300px;
-
-    }
-    
+    }  
 }
 
