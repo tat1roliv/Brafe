@@ -1,116 +1,131 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRAFE | Flexbox Mode</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css"  href="assets/css/style.css">
 </head>
 <body>
-    <header>
-
-        <div>
-            <a href=""><img src="./assets/img/brafe.png" alt="brafe"></a>
-        </div>
-        <nav class="menu-nav">
-            <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Produtos</a></li>
-                <li><a href="">Portfólio</a></li>
-                <li><a href="">Contato</a></li>
-            </ul>
-        </nav> 
-
-
-    </header>
-
-    <main>
-        <h1>Cafés com a cara <br> do Brasil</h1>
-        <p>Direto das fazendas de Minas Gerais</p>
-    </main>
-
-    <section>
-        <h2>Uma mistura de</h2>
-        <div>
-            <div>
-                <img src="./assets/img/cafe-1.jpg" alt="">
-                <h3>amor</h3>
-            </div>
-            <div>
-                <img src="./assets/img/cafe-2.jpg" alt="">
-                <h3>perfeição</h3>
-            </div>
-        </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis magni, quo voluptatibus natus delectus atque maxime. Tempore omnis placeat commodi voluptas blanditiis, accusantium et? Molestias officiis temporibus quo nulla a.</p>
-    </section>
-
-    <section>
-        <div>
-            <div>
-                <h2>Paulista</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore enim, quos asperiores fugiat eos dignissimos nostrum nihil, minima debitis ducimus sapiente? Maxime quam quidem nemo nulla recusandae rem officia nisi!</p>
-            </div>
-            <div>
-                <h2>Carioca</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio animi nam voluptatem libero, soluta corrupti quod temporibus quas sed minima necessitatibus obcaecati nihil inventore, accusantium tempora doloribus voluptatibus nostrum harum!</p>
-            </div>
-            <div>
-                <h2>Mineiro</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi rerum facere, magni nisi illum nulla quos, dolore corrupti perspiciatis eveniet sapiente atque expedita mollitia ipsa, quam labore quod consectetur sit?</p>
-            </div>
-            <a href="#">Saiba mais</a>
-        </div>
-    </section>
-
-    <section>
-        <div>
-            <div>
-                <img src="./assets/img/botafogo.jpg" alt="botafogo">
-                <div>
-                    <h2>Botafogo</h2>
-                    <p> Dolore, explicabo quidem in, reprehenderit debitis consequatur, repudiandae quas magnam temporibus nam illo aliquam perspiciatis rem aliquid odio error fugit ab perferendis!</p>
-                </div> 
-                <a href="#">Ver mapa</a>         
-            </div>
-            <div>
-                <img src="./assets/img/iguatemi.jpg" alt="iguatemi">
-                <div>
-                    <h2>Iguatemi</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellendus ad tempora itaque blanditiis ullam quasi, praesentium id inventore quaerat? Molestias sed necessitatibus commodi impedit ab non repellat, vitae quidem?</p>
-                </div> 
-                <a href="#">Ver mapa</a>         
-            </div>
-            <div>
-                <img src="./assets/img//mineirao.jpg" alt="mineirao">
-                <div>
-                    <h2>Mineirao</h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ipsum ratione doloremque incidunt quas dolores laboriosam blanditiis possimus facilis! Voluptas deserunt ipsam reprehenderit? Ipsa itaque ea a fugit nesciunt sed?</p>
-                </div> 
-                <a href="#">Ver mapa</a>         
-            </div>  
-        </div>      
-    </section>
-
-    <section>
-        <div>
-            <div>
-                <h2>Assine a nossa Newsletter</h2>
-                <p>Promoções e eventos mensais</p>
-            </div>
-            <form action="">
-                <label for="">E-mail</label>
-                <input type="text" placeholder="Digite seu e-mail">
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div>
-            <p>Testing project https://github.com/tat1roliv</p>
-    
-        </div>
-    </footer>
+	
+	<header class="menu">
+		<div>
+			<a class="menu-logo" href="#"><img src="img/brafe.png" alt="Brafé"></a>	
+			<nav class="menu-nav">
+				<ul>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Produtos</a></li>
+					<li><a href="#">Portfólio</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<main class="intro">
+		<h1>Cafés com a cara<br>do Brasil</h1>
+		<p>Direto das fazendas de Minas Gerais</p>
+	</main>
+	
+	<section class="sobre">
+		<h2>Uma Mistura de</h2>
+		<div>
+			<div class="sobre-item">
+				<img src="assets/img/cafe-1.jpg">
+				<h3>amor</h3>
+			</div>
+			<div class="sobre-item">
+				<img src="assets/img/cafe-2.jpg">
+				<h3>perfeição</h3>
+			</div>
+		</div>
+		<p>O café é uma bebida produzida a partir dos grãos torrados do fruto do cafeeiro. É servido tradicionalm
+aente quente, mas também pode ser consumido gelado. Ele é um estimulante, por possuir cafeína — geralmente 80 a 140 mg para cada 207 ml dependendo do método de preparação.</p>
+	</section>
+	
+	<section class="produtos">
+		<div>
+			<div class="produtos-item">
+				<h2 class="produtos-paulista">Paulista</h2>
+				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+			</div>
+			<div class="produtos-item">
+				<h2 class="produtos-carioca">Carioca</h2>
+				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+			</div>
+			<div class="produtos-item">
+				<h2 class="produtos-mineiro">Mineiro</h2>
+				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo noutras regiões: o João Alberto Castelo Branco trouxe mudas do Pará</p>
+			</div>
+		</div>
+		<a class="produtos-btn" href="#">Saiba Mais</a>
+	</section>
+	
+	<section class="locais">
+		<div class="locais-item">
+			<img src="assets/img/botafogo.jpg" alt="Brafé unidade Botafogo">
+			<div>
+				<h2>Botafogo</h2>
+				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.</p>
+				<a href="#">Ver Mapa</a>
+			</div>
+		</div>
+		
+		<div class="locais-item">
+			<img src="assets/img/iguatemi.jpg" alt="Brafé unidade Iguatemi">
+			<div>
+				<h2>Iguatemi</h2>
+				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.</p>
+				<a href="#">Ver Mapa</a>
+			</div>
+		</div>
+		
+		<div class="locais-item">
+			<img src="assets/img/botafogo.jpg" alt="Brafé unidade Mineirão">
+			<div>
+				<h2>Mineirão</h2>
+				<p>As condições climáticas não eram as melhores nessa primeira escolha e, entre 1800 e 1850, tentou-se o cultivo.</p>
+				<a href="#">Ver Mapa</a>
+			</div>
+		</div>
+	
+	</section>
+	
+	<section class="assine">
+		<div>
+			<div class="assine-info">
+				<h2>Assine Nossa Newsletter</h2>
+				<p>promoções e eventos mensais</p>
+			</div>
+			<form>
+				<label>E-mail</label>
+				<input type="text" placeholder="Digite seu e-mail">
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+	</section>
+	
+	<footer class="footer">
+		<div>
+			<p>Este é um projeto da Origamid. Mais em origamid.com<br>Praia de Botafogo, 300, 5º andar - Botafogo - Rio de Janeiro</p>
+			<img src="assets/img/brafe.png" alt="Brafé">
+		</div>
+	</footer>
+	
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
